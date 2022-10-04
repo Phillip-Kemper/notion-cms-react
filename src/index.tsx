@@ -19,6 +19,10 @@ const Counter: React.FC<{
 
 export type ICounterProps = {
   className?: string;
+  notionKey: string;
+  desiredColumns: string;
+  tableName?: string;
+  tableId?: string;
 };
 
 const App: React.FC<ICounterProps> = ({ className = "" }) => {
