@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Phillip-Kemper/notion-cms-react/issues"
   },
@@ -34,5 +34,10 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@notionhq/client": "^2.2.1"
+  }
 }
