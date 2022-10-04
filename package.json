@@ -4,7 +4,8 @@
   "description": "Use Notion as your CMS and use its data as a CMS in your customized (Next.Js) React App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "start": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,10 @@
     "rollup-plugin-sass": "^1.12.16",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.8.4"
-  }
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "files": ["dist"]
 }
